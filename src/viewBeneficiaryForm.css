@@ -1,0 +1,128 @@
+/* Table Styling */
+
+/* Table Container */
+.table {
+  max-width: 200%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px; /* Adjust to move table up/down */
+}
+
+/* Table Styling
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+} */
+
+/* Table Header */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+/* Table Body */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  color: black;
+}
+
+/* Alternate Row Colors */
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 1024px) {
+  .table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* View Button */
+.viewbutton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.viewbutton:hover {
+  background-color: #218838;
+}
+.selectedBeneficiary{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+color:chartreuse;
+}
+.h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:chartreuse;
+  margin-top: 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.search-button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.search-button:active {
+  background-color: #004080;
+}

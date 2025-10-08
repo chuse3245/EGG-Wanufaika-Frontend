@@ -1,0 +1,97 @@
+/* Center the form */
+.auth-container {
+    max-width: 200px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #013838;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Title */
+  .auth-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Input groups */
+  .auth-input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .auth-input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .auth-input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border 0.3s;
+  }
+  
+  .auth-input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Error message */
+  .auth-error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button */
+  .auth-button {
+    width: 60%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .auth-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Toggle link */
+  .auth-toggle {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .toggle-btn:hover {
+    text-decoration: underline;
+  }
+  .form-logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 30px;
+    border-radius: 5px;
+  }
